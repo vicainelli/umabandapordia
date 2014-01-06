@@ -1,0 +1,80 @@
+// ===============================
+//             BUTTONS            
+// ===============================
+
+// Base buttons
+a.button, button.button, .button
+	padding: 0.4375em 1.5625em
+	border: 0
+	@include border-radius (0.3125em)
+	font:
+		size: 0.875em
+		weight: 300
+	line-height: 1.5em
+	text-decoration: none
+	color: #FFFFFF
+	background: #808080
+	cursor: pointer
+	display: inline-block
+
+
+
+// ==========  SIZES  ==========
+
+// Small button
+a.small-button, button.small-button, .small-button
+	font-size: 0.75em
+
+// Medium button
+a.medium-button, button.medium-button, .medium-button
+	font-size: 1em
+
+// Large button
+a.large-button, button.large-button, .large-button
+	font-size: 1.5em
+
+// X Large button
+a.xlarger-button, button.xlarger-button, .xlarger-button
+	font-size: 1.875em
+
+
+
+// ==========  COLORS  ==========
+
+// Primary button
+a.primary-button, button.primary-button, .primary-button
+	color: #FFFFFF
+	background: $color-primary
+	&:hover
+		background: darken($color-primary, 5%)
+
+// Secondary button
+a.secondary-button, button.secondary-button, .secondary-button
+	color: #FFFFFF
+	// background: $color-secondary
+	&:hover
+		background: lighten($color-secondary, 3%)
+
+
+
+
+// ==========  FORMATS  ==========
+
+// Square
+a.square-button, button.square-button, .square-button
+	@include border-radius (0)
+
+// Round Right
+a.round-r-button, button.round-r-button, .round-r-button
+	@include border-radius (1.2em 0 0 1.2em)
+
+// Round Left
+a.round-l-button, button.round-l-button, .round-l-button
+	@include border-radius (0 1.2em 1.2em 0)
+
+// Round both
+a.round-both-button, button.round-both-button, .round-both-button
+	@include border-radius (1.2em )
+
+/*-----  End of BUTTONS  -----
+

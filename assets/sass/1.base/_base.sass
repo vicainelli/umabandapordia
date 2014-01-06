@@ -1,0 +1,21 @@
+@import reset, typography
+
+body
+	background:  #1e2b35 url(../images/site-background.jpg) no-repeat top center
+	font-family: $base-font
+
+.wrap
+	width: 960px
+	margin: 0 auto
+
+.row
+	@include clearfix
+
+
+@media (max-width:959px)
+
+	body
+		background:  #1e2b35
+
+	.wrap
+		width: 90%

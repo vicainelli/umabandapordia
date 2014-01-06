@@ -1,0 +1,127 @@
+/* =================================*/
+/*            SITE HEADER            */
+/* =================================*/
+
+.site-header
+	margin: 50px 0 60px
+
+/* -----  End of SITE HEADER  ------*/
+
+
+/* ==================================*/
+/*            SITE CONTENT            */
+/* ==================================*/
+
+/* ==========  POST  ==========*/
+.post
+	margin: 30px 0
+	background: #fff
+
+.wp-post-image
+	width: 100%
+	height: auto
+
+.entry-header
+	padding: 20px
+	@include clearfix
+
+	.box-entry-title
+		float: left
+
+	.box-date
+		float: right
+		margin-top: 5px
+		font-size: 15px
+		color: #311407
+
+
+.entry-content, .entry-meta
+	padding: 0 20px
+
+@mixin base-links
+	text-decoration: none
+	font-weight: 400
+
+.entry-content
+	margin-bottom: 30px
+	font-size: 15px
+	font-weight: 300
+	line-height: 20px
+	p
+		margin: 10px 0 
+
+	a
+		@include base-links
+		color: #08354a
+		&:hover
+			color: darken( #08354a, 10%)
+			text-decoration: underline
+
+// Link colors
+$gs-color: #f77f00
+a.link-grooveshark
+	color: $gs-color
+	&:hover
+		color: darken( $gs-color, 10%)
+		text-decoration: underline
+
+.entry-meta
+	padding-bottom: 20px
+
+
+
+/* ==========  Subsection comment block  ==========*/
+.pagination
+	margin-bottom: 20px
+	text-align: center
+	.page-numbers
+		margin: 0 4px
+		font-size: 16px
+		color: #fff
+		text-decoration: none
+	.current
+		padding: 0 6px
+		background: #fff
+		color: #08354a
+
+
+
+
+
+@media (min-width:620px) and (max-width:959px)
+	
+
+@media (min-width:440px) and (max-width:619px)
+	.entry-header
+		.box-entry-title, .box-date
+			float: none
+
+@media (max-width:439px)
+	.entry-header
+		.box-entry-title, .box-date
+			float: none
+
+
+
+
+/* -----  End of SITE CONTENT  ------*/
+
+
+/* =================================*/
+/*            SITE FOOTER            */
+/* =================================*/
+
+.site-footer
+
+.text-copyright
+	color: #fff
+	font-size: 14px
+	line-height: 21px
+	font-weight: 300
+
+	a 
+		color: #fff
+		font-weight: 600
+
+/* -----  End of SITE FOOTER  ------*/
+
