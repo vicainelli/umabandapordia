@@ -183,12 +183,60 @@ body {
   text-decoration: underline;
 }
 
+.list-social li {
+  margin: 3px 0;
+}
+
+a.link-post {
+  display: inline-block;
+  padding: 5px 8px;
+  color: white;
+}
+a.link-post:hover {
+  color: white;
+  text-decoration: none;
+}
+
+a.link-facebook {
+  background: #3b5998;
+}
+a.link-facebook:hover {
+  background: #2d4373;
+}
+
 a.link-grooveshark {
-  color: #f77f00;
+  background: #f77f00;
 }
 a.link-grooveshark:hover {
-  color: #c46500;
-  text-decoration: underline;
+  background: #c46500;
+}
+
+a.link-instagram {
+  background: #3f729b;
+}
+a.link-instagram:hover {
+  background: #305777;
+}
+
+a.link-soundcloud {
+  background: #ff7700;
+}
+a.link-soundcloud:hover {
+  background: #cc5f00;
+}
+
+a.link-youtube {
+  background: #c4302b;
+}
+a.link-youtube:hover {
+  background: #9a2622;
+}
+
+a.link-website {
+  background: #08354a;
+}
+a.link-website:hover {
+  background: #03141c;
 }
 
 .entry-meta {

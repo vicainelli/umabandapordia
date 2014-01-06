@@ -57,13 +57,43 @@
 			color: darken( #08354a, 10%)
 			text-decoration: underline
 
+
+.list-social
+	li
+		margin: 3px 0
 // Link colors
-$gs-color: #f77f00
-a.link-grooveshark
-	color: $gs-color
+a.link-post
+	display: inline-block
+	padding: 5px 8px
+	color: #fff
 	&:hover
-		color: darken( $gs-color, 10%)
-		text-decoration: underline
+		color: #fff
+		text-decoration: none
+a.link-facebook
+	background: #3b5998
+	&:hover
+		background: darken(#3b5998, 10%)
+a.link-grooveshark
+	background: #f77f00
+	&:hover
+		background: darken(#f77f00, 10%)
+a.link-instagram
+	background: #3f729b
+	&:hover
+		background: darken(#3f729b, 10%)
+a.link-soundcloud
+	background: #ff7700
+	&:hover
+		background: darken(#ff7700, 10%)
+a.link-youtube
+	background: #c4302b
+	&:hover
+		background: darken(#c4302b, 10%)
+a.link-website
+	background: #08354a
+	&:hover
+		background: darken(#08354a, 10%)
+
 
 .entry-meta
 	padding-bottom: 20px
@@ -111,7 +141,6 @@ a.link-grooveshark
 /*            SITE FOOTER            */
 /* =================================*/
 
-.site-footer
 
 .text-copyright
 	color: #fff
