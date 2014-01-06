@@ -13,6 +13,11 @@
 /* ==================================*/
 
 /* ==========  POST  ==========*/
+
+.single-post
+	.post
+		padding-bottom: 20px
+
 .post
 	margin: 30px 0
 	background: #fff
@@ -58,49 +63,103 @@
 			text-decoration: underline
 
 
-.list-social
-	li
-		margin: 3px 0
-// Link colors
-a.link-post
-	display: inline-block
-	padding: 5px 8px
-	color: #fff
-	&:hover
-		color: #fff
-		text-decoration: none
-a.link-facebook
-	background: #3b5998
-	&:hover
-		background: darken(#3b5998, 10%)
-a.link-grooveshark
-	background: #f77f00
-	&:hover
-		background: darken(#f77f00, 10%)
-a.link-instagram
-	background: #3f729b
-	&:hover
-		background: darken(#3f729b, 10%)
-a.link-soundcloud
-	background: #ff7700
-	&:hover
-		background: darken(#ff7700, 10%)
-a.link-youtube
-	background: #c4302b
-	&:hover
-		background: darken(#c4302b, 10%)
-a.link-website
-	background: #08354a
-	&:hover
-		background: darken(#08354a, 10%)
-
-
 .entry-meta
-	padding-bottom: 20px
+	// padding-bottom: 20px
+
+.tags-links
+	a
+		color: #083e56
+		text-decoration: none
+		font-family: $RockSalt
+		font-size: 14px
+		&:hover
+			text-decoration: underline
 
 
+/* ==========  Comments / Form comments  ==========*/
 
-/* ==========  Subsection comment block  ==========*/
+.commentes-area
+	background: #fff
+	padding: 20px
+
+	h3
+		margin-bottom: 10px
+		font-size: 20px
+
+
+// comments
+
+.commentlist
+	margin-bottom: 20px
+	li
+		margin: 10px 0
+	.children
+		li
+			margin: 5px 0 5px 10px
+
+.comment-body
+	padding: 10px
+	background: rgba(8,62,86,0.1)
+	// color: #fff
+	a
+		// color: #fff
+	p
+		margin: 10px 0
+		font-size: 14px
+		font-weight: 300
+		line-height: 20px
+
+.comment-author
+	margin-bottom: 5px
+	.avatar
+		display: none
+
+	.fn, .fn a
+		color:  rgb(8,62,86)
+		text-decoration: none
+
+	.says
+		font-size: 13px
+	
+.comment-meta
+	font-size: 12px
+	a
+		color: rgb(8,62,86)
+		text-decoration: none
+
+.comment-reply-link
+	color: rgb(8,62,86)
+	font-size: 12px
+
+// FORM COMMENTS
+.list-form-comments
+	list-style: none
+
+.commentform
+	label
+		display: block
+		margin-bottom: 5px
+		font-size: 13px
+		font-weight: 600
+
+	input, textarea
+		@include box-sizing()
+		display: block
+		margin-bottom: 10px
+		padding: 3px
+		border: 1px solid rgba(8,62,86,0.2)
+		color: rgb(8,62,86)
+		font-family: $OpenSans
+		font-size: 14px
+		font-weight: 300
+
+	.btn-submit
+		background: #08354a
+		color: #fff
+		border: 0
+		cursor: pointer
+
+/* ==========  Pagination  ==========*/
 .pagination
 	margin-bottom: 20px
 	text-align: center
@@ -131,6 +190,11 @@ a.link-website
 		.box-entry-title, .box-date
 			float: none
 
+@media (max-width:678px)
+	.commentform
+		input, textarea
+			font-size: 16px
+			width: 100%
 
 
 
@@ -141,16 +205,81 @@ a.link-website
 /*            SITE FOOTER            */
 /* =================================*/
 
+.site-footer
+	margin-top: 30px
+
+.text-about
+	margin: 0 auto 20px
+	color: #fff
+	font-size: 16px
+	line-height: 20px
+	text-align: center
+
+	.link-social
+		margin-bottom: 10px
 
 .text-copyright
 	color: #fff
 	font-size: 14px
 	line-height: 21px
 	font-weight: 300
+	text-align: center
 
 	a 
 		color: #fff
 		font-weight: 600
 
 /* -----  End of SITE FOOTER  ------*/
+
+
+
+/* =====================================*/
+/*            LINKS / BUTTONS            */
+/* =====================================*/
+
+
+
+.list-social
+	li
+		margin: 3px 0
+// Link colors
+.link-social, a.link-social
+	display: inline-block
+	padding: 5px 8px
+	color: #fff
+	text-decoration: none
+	&:hover
+		color: #fff
+a.link-facebook
+	background: #3b5998
+	&:hover
+		background: darken(#3b5998, 10%)
+a.link-grooveshark
+	background: #f77f00
+	&:hover
+		background: darken(#f77f00, 10%)
+a.link-instagram
+	background: #3f729b
+	&:hover
+		background: darken(#3f729b, 10%)
+a.link-soundcloud
+	background: #ff7700
+	&:hover
+		background: darken(#ff7700, 10%)
+a.link-twitter
+	background: #00acee
+	&:hover
+		background: darken(#00acee, 10%)
+a.link-youtube
+	background: #c4302b
+	&:hover
+		background: darken(#c4302b, 10%)
+a.link-website
+	background: #08354a
+	&:hover
+		background: darken(#08354a, 10%)
+
+
+/* -----  End of LINKS / BUTTONS  ------*/
+
 
