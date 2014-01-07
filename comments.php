@@ -95,7 +95,7 @@ _deprecated_file( sprintf( __( 'Theme without %1$s' ), basename(__FILE__) ), '3.
 			<textarea name="comment" id="comment" cols="58" rows="10" tabindex="4"></textarea>
 		</li>
 
-		<li><input name="submit" type="submit" id="submit" class="btn-submit" tabindex="5" value="<?php esc_attr_e('Submit Comment'); ?>" />
+		<li><input name="submit" type="submit" id="submit" class="btn-submit" tabindex="5" value="<?php esc_attr_e('Enviar comentário'); ?>" />
 		<?php comment_id_fields(); ?>
 		</li>
 	<?php do_action('comment_form', $post->ID); ?>
