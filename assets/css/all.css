@@ -38,6 +38,10 @@ table {
   border-spacing: 0;
 }
 
+strong, b {
+  font-weight: 600;
+}
+
 .site-title {
   font-family: "Rock Salt", cursive;
   font-size: 60px;
@@ -194,6 +198,9 @@ body {
 .entry-content a:hover {
   color: #03141c;
   text-decoration: underline;
+}
+.entry-content a.link-social {
+  text-decoration: none;
 }
 
 .tags-links a {
@@ -364,6 +371,18 @@ body {
 /* ===================================== */
 .list-social li {
   margin: 3px 0;
+}
+.list-social a {
+  background: #08354a;
+  display: inline-block;
+  padding: 5px 8px;
+  color: white;
+  text-decoration: none;
+}
+.list-social a:hover {
+  color: white;
+  background: #03141c;
+  text-decoration: none;
 }
 
 .link-social, a.link-social {
