@@ -20,7 +20,7 @@ table{border-collapse:collapse;border-spacing:0}strong,b{font-weight:600}.site-t
 .commentform .btn-submit{background:#08354a;color:white;border:0;cursor:pointer}.pagination{margin-bottom:20px;text-align:center}.pagination .page-numbers{margin:0 4px;font-size:16px;color:white;text-decoration:none}
 .pagination .current{padding:0 6px;background:white;color:#08354a}@media(min-width:440px) and (max-width:619px){.entry-header .box-entry-title,.entry-header .box-date{float:none}
 }@media(max-width:439px){.entry-header .box-entry-title,.entry-header .box-date{float:none}}@media(max-width:678px){.commentform input,.commentform textarea{font-size:16px;width:100%}
-}.site-footer{margin-top:30px}.text-about{margin:0 auto 20px;color:white;font-size:16px;line-height:20px;text-align:center}.text-about .link-social{margin-bottom:10px}
+}.site-footer{margin:30px 0}.text-about{margin:0 auto 20px;color:white;font-size:16px;line-height:20px;text-align:center}.text-about .link-social{margin-bottom:10px}
 .text-copyright{color:white;font-size:14px;line-height:21px;font-weight:300;text-align:center}.text-copyright a{color:white;font-weight:600}.list-social li{margin:3px 0}
 .list-social a{background:#08354a;display:inline-block;padding:5px 8px;color:white;text-decoration:none}.list-social a:hover{color:white;background:#03141c;text-decoration:none}
 .link-social,a.link-social{display:inline-block;padding:5px 8px;color:white;text-decoration:none}.link-social:hover,a.link-social:hover{color:white}a.link-facebook{background:#3b5998}
