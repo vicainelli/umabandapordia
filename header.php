@@ -2,18 +2,16 @@
 <html lang="pt-BR">
 <head>
 	<!-- SEO -->
-	<meta name="description" content="" />
-	<meta name="keywords" content=""/>
+	<meta name="description" content="Uma iniciativa de mostrar bandas clássicas, esquecidas, novas, ou pouco conhecidas ao público" />
 
 	<!-- Open Graph -->
-  <meta property="og:title" content="" />
-  <meta property="og:type" content="website"/>
-  <meta property="og:description" content="" />
-  <meta property="og:url" content=""/>
-  <meta property="og:image" content="images/fb-share.jpg" />
-  <meta property="og:site_name" content=""/>
+  <meta property="og:title" content="<?php wp_title('|',true,'right'); ?><?php bloginfo('name'); ?>" />
+  <meta property="og:type" content="<?php og_type(); ?>"/>
+  <meta property="og:description" content="Uma iniciativa de mostrar bandas clássicas, esquecidas, novas, ou pouco conhecidas ao público" />
+  <meta property="og:url" content="<?php og_url(); ?>"/>
+  <meta property="og:image" content="<?php og_image(); ?>" />
+  <meta property="og:site_name" content="<?php bloginfo('name'); ?>"/>
   <meta property="og:locale" content="pt_BR" />
-  <meta property="fb:app_id" content="" />
 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
