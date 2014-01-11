@@ -1,7 +1,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<?php the_post_thumbnail(); ?>
 	<header class="entry-header">
-		<div class="box-entry-title"><h1 class="entry-title"><?php the_title(); ?></a></h1></div>
+		<div class="box-entry-title"><h1 class="entry-title"><?php the_title(); ?></h1></div>
 		<div class="box-date"><?php the_date('M d, Y') ?></div>
 	</header><!-- .entry-header -->
 
