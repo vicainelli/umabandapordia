@@ -67,13 +67,11 @@ _deprecated_file( sprintf( __( 'Theme without %1$s' ), basename(__FILE__) ), '3.
 <?php else : ?>
 
 <form action="<?php echo site_url(); ?>/wp-comments-post.php" method="post" id="commentform" class="commentform">
-
+	<ul class="list-form-comments">
 	<?php if ( is_user_logged_in() ) : ?>
 
-	<p><?php printf(__('Logged in as <a href="%1$s">%2$s</a>.'), get_edit_user_link(), $user_identity); ?> <a href="<?php echo wp_logout_url(get_permalink()); ?>" title="<?php esc_attr_e('Log out of this account'); ?>"><?php _e('Log out &raquo;'); ?></a></p>
 
 	<?php else : ?>
-	<ul class="list-form-comments">
 		<li>
 			<label for="author"><small><?php _e('Nome'); ?> <?php if ($req) _e('(obrigatório)'); ?></small></label>
 			<input type="text" name="author" id="author" value="<?php echo esc_attr($comment_author); ?>" size="22" tabindex="1" <?php if ($req) echo "aria-required='true'"; ?> />
